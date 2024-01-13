@@ -35,10 +35,10 @@ with col2:
     """
     )
 
+st.header('Experience', divider='rainbow')
+
 st.markdown(
     """
-## Experience
-
 ### Education
 - M.S. in Innovation Technology at [University of Washington](https://www.washington.edu/)
 - B.S. in Engineering Design at [Ulster University](https://www.ulster.ac.uk/)
@@ -50,9 +50,10 @@ st.markdown(
 """
 )
 
+st.header('Projects', divider='rainbow')
+
 st.markdown(
     """
-## Projects
 
 - [Never Fade Away](https://wangjiaqi123jessie.wixsite.com/jessi-s-portfolio/%E6%AD%BB%E4%BA%A1app)
 - [Sour Amour](https://wangjiaqi123jessie.wixsite.com/jessi-s-portfolio/s-projects-side-by-side-1)
@@ -60,9 +61,10 @@ st.markdown(
 """
 )
 
+st.header('Hobbies and Interests', divider='rainbow')
+
 st.markdown(
     """
-## Hobbies and Interests
 
 - Digital painting in Procreate
 """

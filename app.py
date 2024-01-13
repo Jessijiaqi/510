@@ -20,7 +20,7 @@ with col1:
 
     <div class="profile-img">
 
-    ![](https://avatars.githubusercontent.com/u/7678108?v=4)
+    ![](https://github.com/Jessijiaqi/510/blob/main/IMG_6256%202.JPG?raw=true)
     </div>
     """,
         unsafe_allow_html=True,
@@ -29,7 +29,7 @@ with col1:
 with col2:
     st.markdown(
         """
-    # Ian Chen (He/Him)
+    # Jessi Wang (She/Her)
                 
     - Instructor at [Lighthouse Labs](https://www.lighthouselabs.ca/)
     - Engineer at [Clio](https://www.clio.com/)

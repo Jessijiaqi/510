@@ -31,67 +31,87 @@ with col2:
         """
     # Jessi Wang (She/Her)
                 
-    - Instructor at [Lighthouse Labs](https://www.lighthouselabs.ca/)
-    - Engineer at [Clio](https://www.clio.com/)
+    :rainbow[**Hi,I'm Jessi. I'm an HCI/UX designer driven by a passion for creating user-centric products. I love exploring diverse fields and solving real-world problems.**]
     """
     )
 
 st.markdown(
     """
-# Projects
+## Experience
 
-- [Project 1](https://www.google.com)
-- [Project 2](https://www.google.com)
-- [Project 3](https://www.google.com)
+### Education
+- M.S. in Innovation Technology at [University of Washington](https://www.washington.edu/)
+- B.S. in Engineering Design at [Ulster University](https://www.ulster.ac.uk/)
+- B.S. in Industrial Design at [Shaanxi University of Science & Technology](https://en.sust.edu.cn/)
+
+### Work Experience
+- Intern UX Designer in [HIKVISION](https://www.hikvision.com/us-en/)
+- Product Designer in Cross-Strait Industrial Design Workshop
 """
 )
 
 st.markdown(
     """
-# Contact
-""")
-col1, col2, col3 = st.columns(3)
+## Projects
 
-# Card with image and text
-for col in [col1, col2, col3]:
+- [Never Fade Away](https://wangjiaqi123jessie.wixsite.com/jessi-s-portfolio/%E6%AD%BB%E4%BA%A1app)
+- [Sour Amour](https://wangjiaqi123jessie.wixsite.com/jessi-s-portfolio/s-projects-side-by-side-1)
+- [CareCompass](https://wangjiaqi123jessie.wixstudio.io/portfolio/blank-3)
+"""
+)
+
+st.markdown(
+    """
+## Hobbies and Interests
+
+- Digital painting in Procreate
+"""
+)
+
+
+
+
+col1, col2, col3, col4, col5 = st.columns(5)
+
+
+image_urls = [
+    "https://github.com/Jessijiaqi/510/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E4%BD%9C%E5%93%81.PNG?raw=true",  
+    "https://github.com/Jessijiaqi/510/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D%E4%BD%9C%E5%93%81%203.JPG?raw=true",  
+    "https://github.com/Jessijiaqi/510/blob/main/IMG_6201.JPG?raw=true",  
+    "https://github.com/Jessijiaqi/510/blob/main/IMG_6200.JPG?raw=true",  
+    "https://github.com/Jessijiaqi/510/blob/main/IMG_5287.JPG?raw=true", 
+]
+
+
+for col, img_url in zip([col1, col2, col3, col4, col5], image_urls):
     col.markdown(
-        """
-        <style>
-        .profile-img img {
-            width: 100%;
-            border-radius: 10%;
-        }
-        </style>
-
-        <div class="profile-img">
-
-        ![](https://avatars.githubusercontent.com/u/7678108?v=4)
+        f"""
+        <div style="text-align: center;">
+            <img src="{img_url}" style="width: 100%; max-width: 150px; height: auto; border-radius: 10%;">
         </div>
         """,
         unsafe_allow_html=True,
     )
 
-col1, col2, col3 = st.columns(3)
+st.markdown(
+    """
+- Reading
+- Travelling
+- Cats
+"""
+)
 
-# Card with image and text
-for col in [col1, col2, col3]:
-    col.markdown(
-        """
-        <style>
-        .profile-img img {
-            width: 100%;
-            border-radius: 10%;
-        }
-        </style>
+col1, col2 = st.columns(2)
 
-        <div class="profile-img">
 
-        ![](https://avatars.githubusercontent.com/u/7678108?v=4)
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+with col1:
+    st.image("https://github.com/Jessijiaqi/510/blob/main/fc8780699224b0c80b46232b7cdd4b24.jpeg?raw=true", width=300)  
+    st.caption("Mily")  
 
+
+with col2:
+    st.image("https://github.com/Jessijiaqi/510/blob/main/IMG_0205.jpeg?raw=true", width=300)  
+    st.caption("Xiaobai")  
 
 ft = """
 <style>
